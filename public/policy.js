@@ -1,0 +1,1 @@
+export function containsContact(text){return /(?:[\w.+-]+\s*(?:@|\[at\]|\(at\)|\bat\b)\s*[\w.-]+\s*(?:\.|\[dot\]|\(dot\)|\bdot\b)\s*[a-z]{2,})|(?:\+?\d[\d\s().-]{6,}\d)|(?:https?:\/\/|www\.)|(?:whatsapp|telegram|instagram|snapchat|call me|text me)|(?:(?:zero|one|two|three|four|five|six|seven|eight|nine)[\s,.-]+){4}/i.test(text)}
